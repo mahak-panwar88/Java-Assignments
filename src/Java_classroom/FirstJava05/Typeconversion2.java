@@ -8,7 +8,7 @@ public class Typeconversion2 {
         int i = 59900;
         float f = 5.57f;
         double d = 0.255;
-        var finalResult = (f * b) + (i / c) + (d * s);
-        System.out.println("Final Result="+(f * b)+" "+(i / c)+ " " +(d * s));
+        var finalResult = (f * b) + (i % c) + (d * s);
+        System.out.println("Final Result="+finalResult);
     }
 }
