@@ -9,7 +9,7 @@ public class Sum {
         int num2 = input.nextInt();
 
         int sum = num1+num2;
-        System.out.println("com.mahak.Sum="+sum);
+        System.out.println("Sum="+sum);
 
     }
 }

@@ -13,7 +13,7 @@ public class Prime {
         }
         int c = 2;
         while (c * c <= n) {
-            if (n % c == 0) {
+            if ( n % c == 0) {
                 System.out.println("Not Prime");
                 return;
             }
