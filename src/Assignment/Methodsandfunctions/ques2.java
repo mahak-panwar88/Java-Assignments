@@ -3,16 +3,13 @@ package Assignment.Methodsandfunctions;
 import java.util.Scanner;
 
 public class ques2 {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        int a = input.nextInt();
-        int b = input.nextInt();
-        if(a% 2==0) {
-            System.out.println(a);
-            System.out.println(b);
+        int n = input.nextInt();
+        if (n%2==0) {
+            System.out.println("Even");
         }else{
-            System.out.println(b);
-            System.out.println(a);
+            System.out.println("Odd");
         }
     }
 }
